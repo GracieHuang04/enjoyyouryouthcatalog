@@ -1,0 +1,65 @@
+.navigation {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the logo and the nav links */
+    align-items: center; /* Center items vertically */
+    height: 120px;
+    padding: 0 20px; /* Optional: Padding for spacing on the left and right */
+    background-color: #F8E7A2;
+}
+
+/* Logo styling */
+.logo {
+    flex: 0 0 auto; /* Prevent the logo from stretching */
+}
+
+/* Nav links container */
+.nav {
+    display: flex;
+    justify-content: center; /* Center the nav items horizontally */
+    flex: 1; /* Take up the remaining space after the logo */
+}
+
+.nav a {
+    margin: 0 15px; /* Add space between the links */
+    color: black;
+    text-decoration: none;
+}
+
+/* Optional: body styling */
+*{
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+}
+    
+
+.Videos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 20px;;
+}
+
+.video{
+    width: 375px; 
+    height: 667px;
+}
+
+#Video1{
+    padding-top: 20px;
+    width: 375px;
+    height: auto;
+}
+
+.footer{
+    background-color: #F8E7A2;
+}
+
+.footerContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    padding: 0 20px; 
+}

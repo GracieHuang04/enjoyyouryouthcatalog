@@ -1,0 +1,70 @@
+/* Navigation container */
+.navigation {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the logo and the nav links */
+    align-items: center; /* Center items vertically */
+    height: 120px;
+    padding: 0 20px; /* Optional: Padding for spacing on the left and right */
+    background-color: #F8E7A2;
+}
+
+/* Logo styling */
+.logo {
+    flex: 0 0 auto; /* Prevent the logo from stretching */
+}
+
+/* Nav links container */
+.nav {
+    display: flex;
+    justify-content: center; /* Center the nav items horizontally */
+    flex: 1; /* Take up the remaining space after the logo */
+}
+
+.nav a {
+    margin: 0 15px; /* Add space between the links */
+    color: black;
+    text-decoration: none;
+}
+
+/* Optional: body styling */
+*{
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap into new rows */
+    justify-content: space-evenly; /* Evenly distributes space between columns */
+}
+
+.element {
+    width: 30%; /* Each item will take up roughly 1/3 of the row */
+    height: 350px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#text{
+    padding: 20px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+
+}
+
+.footer{
+    background-color: #F8E7A2;
+}
+
+.footerContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    padding: 0 20px; 
+}
+

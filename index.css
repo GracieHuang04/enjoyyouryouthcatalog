@@ -1,0 +1,106 @@
+/* Navigation container */
+.navigation {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the logo and the nav links */
+    align-items: center; /* Center items vertically */
+    height: 120px;
+    padding: 0 20px; /* Optional: Padding for spacing on the left and right */
+    background-color: #F8E7A2;
+}
+
+/* Logo styling */
+.logo {
+    flex: 0 0 auto; /* Prevent the logo from stretching */
+}
+
+/* Nav links container */
+.nav {
+    display: flex;
+    justify-content: center; /* Center the nav items horizontally */
+    flex: 1; /* Take up the remaining space after the logo */
+}
+
+.nav a {
+    margin: 0 15px; /* Add space between the links */
+    color: black;
+    text-decoration: none;
+    transition: font-weight 0.3s ease;
+
+}
+.nav a:hover {
+    font-weight: bold; /* Make the text bold when hovered */
+}
+
+/* Optional: body styling */
+*{
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+}
+ 
+#videoSection{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#bgVideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.product-grid img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.product-grid:hover {
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3); /* Slightly darker and larger shadow on hover */
+    border-radius: 10px; 
+}
+
+.product-name{
+    font-family: "Courier New", Courier, monospace;
+    font-size: medium;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-price{
+    text-align: center;
+}
+
+.title{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 75px;
+    padding-bottom: 25px;
+}
+
+.footer{
+    background-color: #F8E7A2;
+}
+
+.footerContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    padding: 0 20px; 
+}
