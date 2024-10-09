@@ -16,6 +16,13 @@
     .nav{
         margin: 5px 0;
     }
+      .box{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 35px;
+    } 
 }
 /* Logo styling */
 .logo {
