@@ -16,6 +16,7 @@
         margin: 5px 0px;
     }
     .store{
+        display: flex;
         flex-direction: column;
         height: auto;
         align-items: center;
