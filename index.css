@@ -17,7 +17,7 @@
 .nav {
     display: flex;
     justify-content: center; /* Center the nav items horizontally */
-    flex: 1; /* Take up the remaining space after the logo */
+    margin: 0px 10px;
 }
 
 .nav a {
@@ -30,7 +30,15 @@
 .nav a:hover {
     font-weight: bold; /* Make the text bold when hovered */
 }
-
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height to fit content */
+    }
+    .nav {
+        margin: 10px 0; /* Add spacing between nav links */
+    }
+}
 /* Optional: body styling */
 *{
     font-family: "Courier New", Courier, monospace;
