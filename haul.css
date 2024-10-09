@@ -6,7 +6,17 @@
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
     background-color: #F8E7A2;
 }
-
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height to fit content */
+        align-items:center;
+        background-color:#F8E7A2; 
+    }
+    .nav {
+        margin: 5px 0; /* Add spacing between nav links */
+    }
+}
 /* Logo styling */
 .logo {
     flex: 0 0 auto; /* Prevent the logo from stretching */
