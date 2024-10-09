@@ -14,12 +14,6 @@
 }
 
 /* Nav links container */
-.nav {
-    display: flex;
-    justify-content: center; /* Center the nav items horizontally */
-    margin: 0px 10px;
-}
-
 .nav a {
     margin: 0 15px; /* Add space between the links */
     color: black;
