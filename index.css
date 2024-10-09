@@ -28,9 +28,10 @@
     .navigation {
         flex-direction: column; /* Stack items vertically */
         height: auto; /* Adjust height to fit content */
+        align-items:center;
     }
     .nav {
-        margin: 10px 0; /* Add spacing between nav links */
+        margin: 5px 0; /* Add spacing between nav links */
     }
 }
 /* Optional: body styling */
