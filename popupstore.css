@@ -6,25 +6,33 @@
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
     background-color: #F8E7A2;
 }
-
+@media (max-width: 768px){
+    .navigation{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .nav{
+        margin: 5px 0px;
+    }
+}
 /* Logo styling */
 .logo {
     flex: 0 0 auto; /* Prevent the logo from stretching */
 }
 
 /* Nav links container */
-.nav {
-    display: flex;
-    justify-content: center; /* Center the nav items horizontally */
-    flex: 1; /* Take up the remaining space after the logo */
-}
+
 
 .nav a {
     margin: 0 15px; /* Add space between the links */
     color: black;
     text-decoration: none;
+    transition: font-weight 0.3s ease;
 }
-
+.nav a:hover{
+    font-weight: bold;
+}
 /* Optional: body styling */
 *{
     font-family: "Courier New", Courier, monospace;
