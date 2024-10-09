@@ -19,7 +19,9 @@
         flex-direction: column;
         height: auto;
         align-items: center;
+    }
 }
+    
 /* Logo styling */
 .logo {
     flex: 0 0 auto; /* Prevent the logo from stretching */
