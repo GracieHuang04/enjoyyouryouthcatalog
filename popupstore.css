@@ -15,6 +15,10 @@
     .nav{
         margin: 5px 0px;
     }
+    .store{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
 }
 /* Logo styling */
 .logo {
