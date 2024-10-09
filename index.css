@@ -29,6 +29,7 @@
         flex-direction: column; /* Stack items vertically */
         height: auto; /* Adjust height to fit content */
         align-items:center;
+        background-color:#F8E7A2; 
     }
     .nav {
         margin: 5px 0; /* Add spacing between nav links */
