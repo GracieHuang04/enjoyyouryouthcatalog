@@ -1,7 +1,7 @@
 /* Navigation container */
 .navigation {
     display: flex;
-    justify-content: center; /* Distribute space between the logo and the nav links */
+    justify-content: space-between; /* Distribute space between the logo and the nav links */
     align-items: center; /* Center items vertically */
     height: auto;
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
