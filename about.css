@@ -53,7 +53,7 @@
     transition: font-weight 0.3s ease;
 }
 .nav a:hover{
-    font-weight = bold;
+    font-weight: bold;
 }
 /* Optional: body styling */
 *{
