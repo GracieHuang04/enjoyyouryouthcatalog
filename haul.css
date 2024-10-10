@@ -6,6 +6,10 @@
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
     background-color: #F8E7A2;
 }
+.main{
+    background-color:#f0f8ff ;;
+
+}
 @media (max-width: 768px) {
     .navigation {
         flex-direction: column; /* Stack items vertically */
