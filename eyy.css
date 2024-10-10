@@ -11,6 +11,15 @@
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
     background-color: #F8E7A2;
 }
+
+.element {
+    width: 30%; /* Each item will take up roughly 1/3 of the row */
+    height: 350px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px;
+}
+
 @media(max-height: 678px){
     .navigator{
         flex-direction: column;
@@ -55,14 +64,6 @@
     display: flex;
     flex-wrap: wrap; /* Allows the items to wrap into new rows */
     justify-content: space-between; /* Evenly distributes space between columns */
-}
-
-.element {
-    width: 30%; /* Each item will take up roughly 1/3 of the row */
-    height: 350px; /* Adjust height as needed */
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 15px;
 }
 
 #text{
