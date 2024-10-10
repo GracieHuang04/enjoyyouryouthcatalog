@@ -23,7 +23,7 @@
 }
 
 @media(max-height: 768px){
-    .navigator{
+    .navigation{
         flex-direction: column;
         align-items: center;
         height: auto;
