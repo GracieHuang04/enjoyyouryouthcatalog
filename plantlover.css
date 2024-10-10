@@ -11,6 +11,10 @@
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
     background-color: #F8E7A2;
 }
+.main{
+    background-color:#f0f8ff ;;
+
+}
 .element {
     width: 30%; /* Each item will take up roughly 1/3 of the row */
     height: 350px; /* Adjust height as needed */
@@ -95,6 +99,7 @@
     transition: background-color 0.3s; /* Smooth transition when hovering */
     cursor: pointer;             /* Change cursor to pointer when hovering */
     margin-top: 20px;
+    margin-left:20px;
   }
   
   .custom-button i {
