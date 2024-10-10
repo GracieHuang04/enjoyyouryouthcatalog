@@ -7,7 +7,9 @@
     padding: 0 20px; /* Optional: Padding for spacing on the left and right */
     background-color: #F8E7A2;
 }
-
+.main{
+    background-color:#f0f8ff;
+}
 /* Logo styling */
 .logo {
     flex: 0 0 auto; /* Prevent the logo from stretching */
